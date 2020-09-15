@@ -179,6 +179,10 @@ public class LambdaHandler implements RequestHandler<Input, String> {
     		voiceId = VoiceId.Chantal;
     	} 
 
+		if (language.equals("hi") ) {
+    		voiceId = VoiceId.Aditi;
+    	} 
+
     	
         String outputFileName = "/tmp/output.mp3";
  

@@ -25,7 +25,7 @@ div.app {
 
 
 audio {
-   display:none;
+   display:inline;
 }
 
 span#processing {
